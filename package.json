@@ -1,0 +1,16 @@
+{
+  "name": "cypress-training",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "ui-testing",
+    "practice",
+    "cypress"
+  ],
+  "author": "Andres Yepes - andresarad@hotmail.com - https://github.com/andresarad1 ",
+  "license": "MIT"
+}
