@@ -15,6 +15,7 @@
   "author": "Andres Yepes - andresarad@hotmail.com - https://github.com/andresarad1 ",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^13.3.0"
+    "cypress": "^13.3.0",
+    "typescript": "^5.2.2"
   }
 }
