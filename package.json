@@ -4,7 +4,8 @@
   "description": "This is a Workshop about Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "test:open": "cypress open"
   },
   "keywords": [
     "ui-testing",
@@ -12,5 +13,8 @@
     "cypress"
   ],
   "author": "Andres Yepes - andresarad@hotmail.com - https://github.com/andresarad1 ",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
 }
