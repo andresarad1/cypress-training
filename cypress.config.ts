@@ -1,6 +1,7 @@
 import { defineConfig } from "cypress";
 
 module.exports = defineConfig({
+
   video: false,
   screenshotOnRunFailure: false,
   e2e: {    
@@ -13,4 +14,5 @@ module.exports = defineConfig({
    
   },
  
+
 });
