@@ -23,11 +23,7 @@ jobs:
     - name: Run Cypress tests
       run: npm run test:open
 
-    - name: UI E2E Tests
-        uses: cypress-io/github-action@v4
-        with:
-          browser: chrome
-          headed: true
+   
 
 
 
