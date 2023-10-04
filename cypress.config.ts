@@ -2,8 +2,7 @@ import { defineConfig } from "cypress";
 
 module.exports = defineConfig({
 
-  video: false,
-  screenshotOnRunFailure: false,
+
   e2e: {    
     setupNodeEvents(on, config) {
 
@@ -11,7 +10,8 @@ module.exports = defineConfig({
     baseUrl: "https://www.demoblaze.com/index.html",
     defaultCommandTimeout: 20000,
     pageLoadTimeout: 20000,   
-   
+    video: false,
+    screenshotOnRunFailure: false,
   },
  
 
