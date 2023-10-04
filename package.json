@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
+
     "test:open": "npm run lint && cypress open",
     "lint": "eslint ./cypress/e2e/**/*.ts",
     "lint:fix": "npm run lint -- --fix"
+
   },
   "keywords": [
     "ui-testing",
@@ -17,6 +19,7 @@
   "author": "Andres Yepes - andresarad@hotmail.com - https://github.com/andresarad1 ",
   "license": "MIT",
   "devDependencies": {
+
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "cypress": "^13.3.0",
     "eslint": "^8.50.0",
@@ -26,5 +29,6 @@
     "eslint-plugin-n": "^16.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "typescript": "^5.2.2"
+
   }
 }
