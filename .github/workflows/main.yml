@@ -16,7 +16,7 @@ jobs:
           cache: "npm"
 
       - name: Install
-        run: npm install
+        run: npm ci
 
       - name: Code style
         run: npm run lint
