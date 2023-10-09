@@ -18,9 +18,10 @@
   "author": "Andres Yepes - andresarad@hotmail.com - https://github.com/andresarad1 ",
   "license": "MIT",
   "devDependencies": {
-
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "cypress": "^13.3.0",
+    "cypress-xpath": "^2.0.1",
+
     "eslint": "^8.50.0",
     "eslint-config-standard-with-typescript": "^39.1.0",
     "eslint-plugin-cypress": "^2.15.1",
@@ -28,6 +29,5 @@
     "eslint-plugin-n": "^16.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "typescript": "^5.2.2"
-
   }
 }
