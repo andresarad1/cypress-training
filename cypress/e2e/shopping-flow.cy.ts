@@ -36,8 +36,10 @@ describe("Logg in feature", () => {
     })
 
     it("Validate the total sum of the selected products' prices", ()=>{      
-      cy.get("#cartur").click();      
-      cy.wait(2000);      
+      cy.get("#cartur").click();   
+      // cy.wait(2000)
+      cy.get("#totalp").should("be.visible")   
+       
       let contadorElemento = 0; 
       let suma = 0;
       cy.xpath("//*[@id='tbodyid']/tr").should((elementos) => {
