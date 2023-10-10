@@ -1,4 +1,4 @@
-import { homePage,cartPage,fillPage,sendMessage  } from "../support/locators";
+
 import { LoginPage,ProductPage,CartPage,MessagePage } from "../pages";
 
 const loginPage = new LoginPage();
@@ -6,7 +6,7 @@ const productPage = new ProductPage();
 const shoppingCartPage = new CartPage();
 const messagePage = new MessagePage();
 
-describe("Logg in feature", () => {
+describe("Demoblaze Tests", () => {
     beforeEach(() => {
       loginPage.toLogIn()
     });
