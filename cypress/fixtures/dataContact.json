@@ -1,0 +1,11 @@
+{
+    "demoUrl": "https://demoqa.com/",
+    "name": "Holmes",
+    "lastName": "Salazar",
+    "email": "test@email.com",
+    "gender": "Male",
+    "dateOfBirth": "27 6 2016",
+    "mobileNumber": "3656589156",
+    "hobbies": ["Music", "Reading"],
+    "currentAddress": "Av siempreViva # 123"
+}
