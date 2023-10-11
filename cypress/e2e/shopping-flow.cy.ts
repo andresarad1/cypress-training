@@ -5,7 +5,9 @@ const productPage = new ProductPage();
 const shoppingCartPage = new CartPage();
 const messagePage = new MessagePage();
 
-describe("Logg in feature", () => {
+
+describe("Demoblaze Tests", () => {
+
     beforeEach(() => {
       loginPage.toLogIn()
     });
@@ -33,7 +35,6 @@ describe("Logg in feature", () => {
      messagePage.goToContactPage();
      messagePage.fillForm();
      messagePage.verifySendMessage(); 
-
     })
 
   });

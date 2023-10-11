@@ -39,8 +39,9 @@ export class CartPage {
         cy.get(fillPage.year).type("2023", {force: true});
         cy.xpath(fillPage.purchase).contains("Purchase").click().then(()=>{
             cy.get(fillPage.alertFill).should("be.visible")
-        })
-        
+
+        })                
+
     }
 
 
