@@ -7,6 +7,7 @@ export class CartPage {
 
     verifyCartPage(){
       cy.get(cartPage.btnCart).click();   
+
       cy.get(cartPage.totalPrice).should("be.visible")         
     }
 
@@ -38,9 +39,11 @@ export class CartPage {
         cy.get(fillPage.month).type("Octubre", {force: true});
         cy.get(fillPage.year).type("2023", {force: true});
         cy.xpath(fillPage.purchase).contains("Purchase").click().then(()=>{
-        cy.get(fillPage.alertFill).should("be.visible")
 
-        })           
-    }
+            cy.get(fillPage.alertFill).should("be.visible")
+        })        
+                
+    }    
+
 }
 
