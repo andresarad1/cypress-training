@@ -39,8 +39,10 @@ module.exports = defineConfig({
       mobileNumber: "3656589156",
       hobbies: ["Music", "Reading"],
       currentAddress: "Av siempreViva # 123",
-    }
-
+    },
+    Upload: {
+      uploadUrl   : "https://the-internet.herokuapp.com/upload"
+    },
   }
 
 });
