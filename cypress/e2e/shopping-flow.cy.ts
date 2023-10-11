@@ -1,4 +1,3 @@
-import { homePage,cartPage,fillPage,sendMessage  } from "../support/locators";
 import { LoginPage,ProductPage,CartPage,MessagePage } from "../pages";
 
 const loginPage = new LoginPage();
@@ -34,6 +33,7 @@ describe("Logg in feature", () => {
      messagePage.goToContactPage();
      messagePage.fillForm();
      messagePage.verifySendMessage(); 
+
     })
 
   });
