@@ -7,6 +7,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
 
     },
+
     reporter: "cypress-multi-reporters", 
     reporterOptions: {
       reporterEnabled: "mochawesome",
@@ -18,6 +19,7 @@ module.exports = defineConfig({
         json: true,
       },
     },
+
     baseUrl: "https://www.demoblaze.com",
     defaultCommandTimeout: 20000,
     pageLoadTimeout: 20000,   
