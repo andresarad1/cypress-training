@@ -7,7 +7,7 @@ export class LoginPage {
     }
 
     toLogIn(){
-        cy.visit("/");
+        cy.visit(user.demoblazeUrl);
         cy.get(loginPage.logIn).click();
         cy.get(loginPage.loginUser).type(user.userName,{force: true});
         cy.get(loginPage.loginPassword).type(user.password,{force: true});

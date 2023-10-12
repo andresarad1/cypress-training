@@ -1,6 +1,6 @@
 import { homePage,sendMessage } from "../support/locators";
 
-
+const user = Cypress.env("User")
 
 export class MessagePage {
     constructor(){
@@ -8,7 +8,7 @@ export class MessagePage {
     }
 
     goToContactPage(){
-        cy.visit("/");
+        cy.visit(user.demoblazeUrl);
         cy.get(homePage.navar).contains("Contact").click();
     }
 

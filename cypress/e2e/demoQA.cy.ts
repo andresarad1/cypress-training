@@ -7,7 +7,7 @@ describe("DemoQATests", () => {
         fForm.goToFillForm();
     });
 
-    it("Llenar el formulario de registro estudiante", () => {
+    it("Validate student registration", () => {
         fForm.fillOutAForm();
         fForm.validateTitleAfterFillingForm();
     });

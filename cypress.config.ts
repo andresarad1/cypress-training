@@ -17,8 +17,7 @@ module.exports = defineConfig({
         html: false,
         json: true,
       },
-    },
-    baseUrl: "https://www.demoblaze.com",    
+    },    
     defaultCommandTimeout: 20000,
     pageLoadTimeout: 20000,   
     video: false,
@@ -27,15 +26,16 @@ module.exports = defineConfig({
   env:{
     User:{
       userName: "andresarad",
-      password: "abc123"
+      password: "abc123",
+      demoblazeUrl: "https://www.demoblaze.com"
     },
     fillFormDemoQA:{
       demoUrl: "https://demoqa.com/",
-      name: "Holmes",
-      lastName: "Salazar",
-      email: "test@email.com",
+      name: "Andres ",
+      lastName: "Yepes",
+      email: "andresarad@hotmail.com",
       gender: "Male",
-      dateOfBirth: "27 6 2016",
+      dateOfBirth: "6 4 1994",
       mobileNumber: "3656589156",
       hobbies: ["Music", "Reading"],
       currentAddress: "Av siempreViva # 123",
@@ -43,6 +43,9 @@ module.exports = defineConfig({
     Upload: {
       uploadUrl   : "https://the-internet.herokuapp.com/upload"
     },
+    w3school: {
+      w3schoolUrl : "https://www.w3schools.com/html/html_iframe.asp"
+    }
   }
 
 });
