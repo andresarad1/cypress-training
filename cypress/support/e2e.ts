@@ -1,4 +1,7 @@
 /// <reference types= "Cypress" />
+
+///<reference types="cypress-iframe" />
+
 // ***********************************************************
 // This example support/e2e.js is processed and
 // loaded automatically before your test files.
@@ -23,6 +26,5 @@ Cypress.on("uncaught:exception", (err, runnable) => {
     // failing the test
     return false;
 });
-
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
