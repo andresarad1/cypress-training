@@ -47,5 +47,4 @@ module.exports = defineConfig({
       w3schoolUrl : "https://www.w3schools.com/html/html_iframe.asp"
     }
   }
-
 });
