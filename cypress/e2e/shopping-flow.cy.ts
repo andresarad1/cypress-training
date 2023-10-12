@@ -7,6 +7,7 @@ const shoppingCartPage = new CartPage();
 const messagePage = new MessagePage();
 
 describe("Demoblaze Tests", () => {
+
     beforeEach(() => {
       loginPage.toLogIn()
     });
