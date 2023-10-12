@@ -7,7 +7,6 @@ export class CartPage {
 
     verifyCartPage(){
       cy.get(cartPage.btnCart).click();   
-      // cy.wait(2000)
       cy.get(cartPage.totalPrice).should("be.visible")         
     }
 
@@ -41,11 +40,8 @@ export class CartPage {
         cy.xpath(fillPage.purchase).contains("Purchase").click().then(()=>{
             cy.get(fillPage.alertFill).should("be.visible")
         })        
-        // cy.xpath('//div[@class="sa-confirm-button-container"]').contains("OK").click()
         
     }
 
-
-    
 }
 
