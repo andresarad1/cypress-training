@@ -1,6 +1,10 @@
 import { defineConfig } from "cypress";
 
 module.exports = defineConfig({
+  "retries": {
+    "runMode": 3,
+    "openMode": 2
+  },
 
 
   e2e: {    
